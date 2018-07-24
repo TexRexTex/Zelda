@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>The Legend Of Zelda: Ocarina Of Time n64
+</h1>
+<iframe height="100%" width="100%" border="0" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" id="gameFrame"></iframe>
+<script>
+  var iframe_url = "//static.arcadespot.com/embed/the-legend-of-zelda-ocarina-of-time/?platform&responsive";
+  window.setTimeout(function() {
+    var iframe = document.getElementById('gameFrame');
+    iframe.setAttribute('src', iframe_url);
+  }, 2000);
+
+</script>
+
+</body>
+</html>
